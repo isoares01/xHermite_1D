@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "xhermite"
+version = "1.3.0"
+description = "Tsallis-deformed (x-Hermite) cubic interpolation: symbolic derivations, numerical implementation, and reproducibility scripts."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+    { name = "Isaias J. A. Soares" },
+    { name = "Ariadne A. Costa" },
+    { name = "Luiz Otavio Murta Junior" },
+]
+dependencies = [
+    "numpy>=1.23",
+    "scipy>=1.9",
+    "sympy>=1.11",
+]
+
+[project.optional-dependencies]
+plots = ["matplotlib>=3.6"]
+dev = ["pytest>=7.0"]
+all = ["matplotlib>=3.6", "pytest>=7.0"]
+
+[tool.setuptools.packages.find]
+include = ["xhermite*"]

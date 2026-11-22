@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the article below."
+title: "xhermite: Tsallis-deformed (x-Hermite) interpolation"
+version: 1.2.0
+license: MIT
+repository-code: "https://github.com/isoares01/xHermite_1D"
+authors:
+  - family-names: Soares
+    given-names: Isaias J. A.
+  - family-names: Costa
+    given-names: Ariadne A.
+  - family-names: Murta Junior
+    given-names: Luiz Otavio
+preferred-citation:
+  type: article
+  title: "Tsallis-deformed cubic Hermite interpolation: construction, geometric deformation and approximation properties"
+  authors:
+    - family-names: Soares
+      given-names: Isaias J. A.
+    - family-names: Costa
+      given-names: Ariadne A.
+    - family-names: Murta Junior
+      given-names: Luiz Otavio
+  journal: "Journal of Computational and Applied Mathematics"
+  status: submitted
